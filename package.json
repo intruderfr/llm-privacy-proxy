@@ -1,0 +1,20 @@
+{
+  "name": "llm-privacy-proxy",
+  "version": "0.1.0",
+  "description": "Node.js PII anonymization proxy for LLM APIs",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "test": "node test/proxy.test.js"
+  },
+  "keywords": ["llm", "privacy", "pii", "proxy", "anonymization", "ai", "openai"],
+  "author": "Aslam Ahamed",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/intruderfr/llm-privacy-proxy"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
